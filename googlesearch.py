@@ -28,6 +28,7 @@ class GoogleSearch(unittest.TestCase):
         cls.driver.close()
         cls.driver.quit()
         print("Test Complete")
+        print("Test on git and jenkins")
 if __name__ == '__main__':
     unittest.main(testRunner=HTMLTestRunner.HTMLTestRunner(output='/Users/smarikagyawali/PycharmProjects/selenium_python/reports'))
 
